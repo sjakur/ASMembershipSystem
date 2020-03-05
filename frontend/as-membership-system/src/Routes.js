@@ -10,7 +10,7 @@ import SportList from "./components/SportList/SportList"
 const Routes = () => {
   return (
     <Switch>
-      {/* <LayoutHOC component={MemberList} exact layout={MainLayout} path="/" /> */}
+      <LayoutHOC component={MemberList} exact layout={MainLayout} path="/" />
       <LayoutHOC
         component={MemberList}
         exact
